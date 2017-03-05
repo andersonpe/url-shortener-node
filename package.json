@@ -10,5 +10,8 @@
     "inert": "^4.1.0",
     "joi": "^10.2.2",
     "mongoose": "^4.8.5"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
