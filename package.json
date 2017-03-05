@@ -4,5 +4,11 @@
   "description": "Node url shortener service with hapi.js",
   "main": "index.js",
   "author": "bradleyprice@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "joi": "^10.2.2",
+    "mongoose": "^4.8.5"
+  }
 }
