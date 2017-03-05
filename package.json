@@ -1,0 +1,8 @@
+{
+  "name": "node-shortener",
+  "version": "1.0.0",
+  "description": "Node url shortener service with hapi.js",
+  "main": "index.js",
+  "author": "bradleyprice@gmail.com",
+  "license": "MIT"
+}
