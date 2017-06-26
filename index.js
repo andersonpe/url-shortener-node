@@ -2,7 +2,7 @@ const Hapi = require('hapi')
 const server = new Hapi.Server()
 const routes = require('./routes')
 const mongoose = require('mongoose')
-const mongoUri = process.env.MONGO_URI || 'mongodb://localhost/shortio'
+const mongoUri = process.env.MONGO_HOST || 'mongodb://localhost/shortio'
 const inert = require('inert')
 
 const options = {
